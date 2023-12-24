@@ -11,7 +11,7 @@ def island_perimeter(grid):
         1 represenrs a land zone
       Returns:
         - int: Perimeter of the island.
-      
+
       Constraints:
         - One cell is a square with side length 1
         - Grid cells are connected horizontally/vertically not
@@ -32,5 +32,5 @@ def island_perimeter(grid):
                     perimeter -= 2
                 if j > 0 and grid[i][j - 1] == 1:
                     perimeter -= 2
-    
-    return perimeter    
+
+    return perimeter
